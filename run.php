@@ -11,8 +11,8 @@ class ProblemSolver
             if($counter<0)return 'FAIL';
         }
         if($counter==0)return 'OK';
+	else return 'FAIL';
     }
 }
 echo ProblemSolver::BracesBalance($argv[1]);
 ?>
-
